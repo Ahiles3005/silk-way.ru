@@ -53,7 +53,7 @@ class silk_way_tilda_widget extends WP_Widget {
 		$text34 = get_field('text34', 'widget_' . $widget_id);
 		?>
 		<section class="index-tilda">
-			<div class="tblock1" style="background: url('<?=$bg1;?>');background-size: cover;background-position: center;">
+		<?php /*	<div class="tblock1" style="background: url('<?=$bg1;?>');background-size: cover;background-position: center;">
 				<div class="tblock1-title">
 					<img alt="" title="" src="<?=$title1;?>">
 				</div>
@@ -71,11 +71,14 @@ class silk_way_tilda_widget extends WP_Widget {
 						<div class="tblock1-img timg3"><img alt="" title="" src="<?=$pic3;?>"></div>
 					</div>
 				</div>
-			</div>
-			<div class="tblock-mid" style="background: url('<?=$bg2;?>');background-size: cover;background-position: center;">
+			</div> */?>
+			<?php /* <div class="tblock-mid" style="background: url('<?=$bg2;?>');background-size: cover;background-position: center;">
 				<div class="down-mid">
 					<img alt="" title="" src="<?=get_stylesheet_directory_uri();?>/img/widget/down.svg">
 				</div>
+			</div>	*/?>
+
+            <div class="tblock-mid">
 			</div>
 			<div class="tblock2" style="background: url('<?=$bg3;?>');background-size: cover;background-position: center;">
 				<div class="tblock2-title">
