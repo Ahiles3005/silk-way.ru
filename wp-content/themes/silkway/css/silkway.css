@@ -1342,8 +1342,9 @@ section.index-tags .tags-category .tags-container .view-all{width:max-content;he
 section.index-tags .tags-category .tags-container .view-all:hover{background:#ec1d24;}
 
 @media (max-width: 1200px){
-    section.index-tags .tags-category h1{font-size:26px;line-height:30px;}
+    section.index-tags .tags-category h1, section.index-tags .tags-category .h1 {font-size:24px;line-height:30px;}
 }
+
 /* m（︶︿︶）m КОНЕЦ МОДУЛЯ */
 
 /* m（︶︿︶）m НАЧАЛО МОДУЛЯ */
