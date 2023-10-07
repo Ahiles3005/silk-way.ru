@@ -38,7 +38,7 @@ class silk_way_mobile_menu_widget extends WP_Widget {
                 </a>
                 <div class="mobile-menu-adress">
                     <p>
-                        <i>&#xf05b;</i>
+                        <i>&#xf041;</i>
                         <select>
                             <?php while ( have_rows('city_select_mobile_menu', 'widget_' . $widget_id) ) : the_row();?>
                                 <option value="<?php echo get_sub_field('city_select_mobile_menu_phone'); ?>"><?php echo get_sub_field('city_select_mobile_menu_city'); ?></option>
