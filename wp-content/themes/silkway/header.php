@@ -145,10 +145,14 @@ endif;
                     </a>
                     */ ?>
                 </div>
-                <div class="menu-toggler">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+<!--                <div class="menu-toggler">-->
+<!--                    <span></span>-->
+<!--                    <span></span>-->
+<!--                    <span></span>-->
+<!--                </div>-->
+
+                <div class="menu-toggler-new">
+                    <span class="lupa"></span>
                 </div>
             </div>
         </div>

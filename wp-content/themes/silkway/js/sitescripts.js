@@ -155,18 +155,15 @@ function insertOrganizationAddress( currentOption ) {
 }
 
 function mobileMenu(){
-	d.querySelector('.header-middle .menu-toggler').addEventListener('click', function () {
+	d.querySelector('.header-middle .menu-toggler, .header-middle .menu-toggler-new').addEventListener('click', function () {
 		jQuery(this).toggleClass('open');
 		jQuery('.header-middle .menus-block').toggleClass('open');
 	});
-	/*d.querySelector('.m-cat-menu-wrap.m-cat-menu-toggler').addEventListener('click', function () {
-		jQuery(this).toggleClass('open');
-		jQuery('.header-middle .menus-block').toggleClass('open');
-	});*/
+
 	d.querySelector('.header-middle .menus-block i.close-menu').addEventListener('click', function () {
 		jQuery('.header-middle .menu-toggler').removeClass('open');
+		jQuery('.header-middle .menu-toggler-new').removeClass('open');
 		jQuery('.header-middle .menus-block').removeClass('open');
-		//jQuery('.m-cat-menu-wrap.m-cat-menu-toggler').removeClass('open');
 	});
 	jQuery('.header-middle .menus-block .header-menu-white>ul>li.menu-item-has-children').each(function () {
 		jQuery('>a', jQuery(this)).after('<div class="sub-menu-toggler">&#xf054;</div>');
