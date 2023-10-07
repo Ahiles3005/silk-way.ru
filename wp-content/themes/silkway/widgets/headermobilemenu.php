@@ -33,9 +33,14 @@ class silk_way_mobile_menu_widget extends WP_Widget {
                 <div class="header-menu-white">
                     <?php wp_nav_menu(['menu' => get_field('id_mobile_catalog_menu', 'widget_' . $widget_id), 'container' => '']); ?>
                 </div>
-                <a href="<?php echo home_url(); ?>" class="mobile-menu-logo">
-                    <img alt="" src="<?php echo get_field('mobile_logo_img', 'widget_' . $widget_id); ?>">
-                </a>
+                <div style="display: flex;    justify-content: space-around; align-items: center;">
+                    <a href="<?php echo home_url(); ?>" class="mobile-menu-logo">
+                        <img alt="" src="<?php echo get_field('mobile_logo_img', 'widget_' . $widget_id); ?>">
+                    </a>
+                    <a href="/shop/" class="mobile-menu-logo" style="border: 2px solid; border-radius: 10px;    padding: 10px;">
+                        Весь ассортимент
+                    </a>
+                </div>
                 <div class="mobile-menu-adress">
                     <p>
                         <i>&#xf041;</i>
