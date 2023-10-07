@@ -937,7 +937,7 @@ function initSertificatePopup() {
 					localStorage.setItem('localStoragePopupSertificate', +new Date());
 					ym(61113070, 'reachGoal', 'pokaz-popap')
 				}
-			}, 40000);
+			}, 55000);
 
 			const sertificateFormPhone = sertificateForm.querySelector('.phone-number');
 			/*if (sertificateFormPhone) {
